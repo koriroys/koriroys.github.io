@@ -10,19 +10,10 @@
         -moz-animation-direction: alternate;
 
         -webkit-animation-name: clouds;
-        -webkit-animation-duration: 8s;
+        -webkit-animation-duration: 4s;
         -webkit-animation-iteration-count: infinite;
         -webkit-animation-timing-function: linear;
         -webkit-animation-direction: alternate;
-       }
-        @-moz-keyframes squirrel {
-          from { width: 80%; }
-          to { width:85%; }
-        }
-
-        @-webkit-keyframes clouds {
-          from { left:10%; width:80%; }
-          to { left:8%; width:84%; }
       }
       #png1 {
         position:absolute;
@@ -60,17 +51,17 @@
         z-index:-1;
       }
       #png5 {
-      -moz-animation-name: squirrel;
-      -moz-animation-duration: 1.5s;
-      -moz-animation-iteration-count: infinite;
-      -moz-animation-timing-function: linear;
-      -moz-animation-direction: alternate;
+        -moz-animation-name: squirrel;
+        -moz-animation-duration: 1.5s;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-timing-function: linear;
+        -moz-animation-direction: alternate;
 
-      -webkit-animation-name: squirrel;
-      -webkit-animation-duration: 1.5s;
-      -webkit-animation-iteration-count: infinite;
-      -webkit-animation-timing-function: linear;
-      -webkit-animation-direction: alternate;
+        -webkit-animation-name: squirrel;
+        -webkit-animation-duration: 1.5s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-direction: alternate;
       }
       @-moz-keyframes squirrel {
         from { left:11%; width: 80%; }
@@ -79,6 +70,14 @@
       @-webkit-keyframes squirrel {
         from { left:11%; width: 80%; }
         to { right:12%; width:80%; }
+      }
+      @-moz-keyframes squirrel {
+        from { width: 80%; }
+        to { width:85%; }
+      }
+      @-webkit-keyframes clouds {
+        from { left:10%; width:80%; }
+        to { left:8%; width:80%; }
       }
       #border {
         position:absolute;
@@ -102,9 +101,3 @@
 </html>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script type='text/javascript'>
-$(function() {
-  // do stuff
-});
-</script>
-
