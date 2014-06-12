@@ -1,0 +1,25 @@
+section {
+  height: 100%;
+}
+
+.kori {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 4em;
+  margin-left: -40%;
+  margin-top: -75px;
+  width: 80%;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a {
+  color:#206cb1;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+  color:#185286;
+}
