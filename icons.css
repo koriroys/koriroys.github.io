@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot?-2k8uw2');
+  src:url('fonts/icomoon.eot?#iefix-2k8uw2') format('embedded-opentype'),
+    url('fonts/icomoon.woff?-2k8uw2') format('woff'),
+    url('fonts/icomoon.ttf?-2k8uw2') format('truetype'),
+    url('fonts/icomoon.svg?-2k8uw2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+  content: "\e600";
+}
+a .icon-mail {
+  color:#000;
+}
+
+.icon-github:before {
+  content: "\e601";
+}
+a .icon-github {
+  color:#000;
+}
+
+.icon-twitter:before {
+  content: "\e602";
+}
+a .icon-twitter {
+  color: #56abee;
+}
+
+.icon-facebook:before {
+  content: "\e603";
+}
+a .icon-facebook {
+  color: #495ca5;
+}
+
+.icon-linkedin:before {
+  content: "\e604";
+}
+a .icon-linkedin {
+  color: #1a86bc;
+}
+
+.icon-instagram:before {
+  content: "\e605";
+}
+a .icon-instagram {
+  color: #91624b;
+}

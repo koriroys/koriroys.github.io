@@ -3,15 +3,19 @@ section {
 }
 
 .kori {
-  height: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   font-size: 4em;
   margin-left: -40%;
-  margin-top: -75px;
+  margin-top: -145px;
   width: 80%;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.icons {
+  font-size: 1.5em;
+  text-align: center;
 }
 
 a {
