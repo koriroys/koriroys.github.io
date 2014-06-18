@@ -1,0 +1,11 @@
+# Site settings
+title: Blog by Kori Roys 
+email: kori@koriroys.com
+description: "Personal blog of Kori Roys"
+baseurl: "/blog"
+url: "http://koriroys.com"
+username: koriroys
+
+# Build settings
+markdown: kramdown
+permalink: none
